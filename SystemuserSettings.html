@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="SystemUserSettings.css">
+    <title>Settings - System User Hub</title>
+</head>
+<body>
+    <section id="sidebar">
+            <a href="SystemUser.html" class="brand">
+                <i class='bx bxs-smile'></i>
+                <span class="text">System User Hub</span>
+            </a>
+            <ul class="side-menu top">
+                <li class="active">
+                    <a href="SystemUser.html">
+                        <i class='bx bxs-dashboard' ></i>
+                        <span class="text">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="ManageRepairCar.html">
+                        <i class='bx bxs-doughnut-chart' ></i>
+                        <span class="text">Manage Repair Car</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="ManageCustomer.html">
+                        <i class='bx bxs-doughnut-chart' ></i>
+                        <span class="text">Manage Customer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="ManageInsuarance.html">
+                        <i class='bx bxs-doughnut-chart' ></i>
+                        <span class="text">Manage Insuarance</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="side-menu">
+                <li>
+                    <a href="SystemuserSettings.html">
+                        <i class='bx bxs-cog' ></i>
+                        <span class="text">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="SystemUserLogin.html" class="logout">
+                        <i class='bx bxs-log-out-circle' ></i>
+                        <span class="text">Logout</span>
+                    </a>
+                </li>
+            </ul>
+    </section>
+
+    <section id="content">
+        <main>
+            <div class="head-title">
+                <div class="left">
+                    <h1>Settings</h1>
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="SystemUser.html">Dashboard</a>
+                        </li>
+                        <li><i class='bx bx-chevron-right'></i></li>
+                        <li>
+                            <a class="active" href="SystemuserSettings.html">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+           <!-- Profile Update Section -->
+<section class="profile-update">
+    <div class="head-title">
+        <div class="left">
+            <h1>Update Profile</h1>
+        </div>
+    </div>
+    <div class="update-form">
+        <form>
+            <div class="form-group">
+                <label for="userName">Name</label>
+                <input type="text" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="userEmail">User Name</label>
+                <input type="text" id="userName" placeholder="Your User Name">
+            </div>
+            <div class="form-group">
+                <label for="userEmail">Password</label>
+                <input type="password" id="password" placeholder="Your Password">
+            </div>
+            <button type="submit" class="btn-submit">Update Profile</button>
+        </form>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

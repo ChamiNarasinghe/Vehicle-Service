@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Signup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="SystemUserLogin.css"> <!-- Assuming the same CSS file is used -->
+</head>
+<body>
+    <div class="login-container"> <!-- Consider renaming the class for both login and signup to something more generic like 'form-container' -->
+        <form action="/signup" method="POST"> <!-- Adjust action as needed -->
+            <h2 class="form-title">System User Signup</h2>
+            <div class="input-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirmPassword" required>
+            </div>
+            <div class="input-group">
+                <input type="submit" value="Sign Up">
+            </div>
+            <a href="/login" class="link">Already have an account? Log in</a>
+        </form>
+    </div>
+</body>
+</html>
+``
